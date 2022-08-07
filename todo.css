@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.hii {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(rgb(204, 206, 233), rgb(243, 76, 243));
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem 0 3rem;
+}
+
+.hee {
+    font-size: 3.5rem;
+    text-align: left;
+
+    padding-right: 500px;
+
+}
+
+
+.title {
+
+    font-weight: 300;
+    font-size: 100px;
+    padding: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    padding: 0.5rem 1rem;
+    outline: none;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0.40rem;
+    transition: .5s;
+    font-size: 1.5rem;
+}
+
+.add {
+    outline: none;
+    border: none;
+    width: 50px;
+    border-radius: 10px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: .25res;
+}
+
+.add hover {
+    background: rgb(216, 216, 116);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.item_input {
+    background: rgb(243, 241, 241);
+    outline: none;
+    border: 3px solid #f5e2fd;
+    border-radius: 10px;
+    color: black;
+    margin-top: 15px;
+    width: 300px;
+    font-size: 25px;
+    padding: 2px;
+
+}
+
+.remove {
+    background: none;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.remove_btn {
+    margin-top: 15px;
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: white;
+    padding: 20px;
+    display: inline-block;
+    font-size: 15px;
+    transition: all 0.4 ease 0s;
+    height: 40px;
+    width: 155px;
+    align-items: center;
+    text-align: center;
+}
+
+.remove_btn:hover {
+    background: black;
+    color: white;
+    letter-spacing: 1px;
+    -box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.img {
+    height: 1px;
+
+   
+}
+.button_count{
+    align-items: center;
+    text-align: center;
+    padding-right: 370px;
+}
